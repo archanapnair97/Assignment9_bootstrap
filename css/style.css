@@ -1,0 +1,160 @@
+/*
+Author:ARCHANA P NAIR
+Date:28/12/2021
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.image{
+	background-image: url("../img/academy-banner.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+	
+	
+}
+h1{
+	color: #1e2531;
+	font-size: 60px;
+}
+.height5{
+	height: 110vh;
+}
+.font{
+	h1:50px;
+}
+.height6{
+	height: 100vh;
+}
+
+.training h3::before{
+	content:"{";
+	color: #f00;
+}
+.training h3::after{
+	content:"}";
+	color: #f00;
+}
+.para{
+	font-size: 25px;
+}
+
+.relative{
+	position: relative;
+}
+.image4{
+	position: absolute;
+	left: 5vw;
+	top: 10vh;
+}
+.para{
+	position: absolute;
+	top: 75vh;
+}
+.absolute{
+	position: absolute;
+	top: 25vh;
+	left: 70vh;
+	height: 40vh;
+	width:50vw;
+}
+.image1{
+	background-image: url("../img/modulebg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.vh-40{
+	height: 50vh;
+	font-size: 25px;
+}
+.image2{
+	background-image: url("../img/testsbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.image3{
+	background-image: url("../img/intrvwbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.vh-60{
+	height: 60vh;
+}
+.vh-50{
+	height: 50vh;
+	color: #fff;
+}
+.height2 h3{
+  font-size: 30px;
+}
+.height2 p{
+	font-size: 20px;
+}
+.height4{
+	font-size: 35px;
+}
+
+
+/*media query*/
+@media only screen and (max-width: 576px)
+{
+
+	
+	.image{
+	background-image:none;
+	background-color: gray;
+	position: relative;
+	height: 100vh;
+
+	
+
+}
+.hello{
+	text-align: center;
+}
+.relative{
+	position: relative;
+    height:140vh;
+
+}
+.image4{
+	
+	width: 100%;
+	height: 40vh;
+	position: absolute;
+	left: 0;
+	top: 0vh;
+	padding: 0;
+}
+.absolute{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 40vh;
+}
+.para{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 75vh;
+	font-size: 20px;
+
+}
+
+.vh-40 p{
+	font-size: 18px;
+}
+.training{
+	font-size: 18px;
+	text-align: center;
+
+}
+.height6{
+	height: 150vh;
+}
+}
